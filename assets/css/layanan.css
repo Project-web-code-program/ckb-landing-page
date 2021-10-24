@@ -1,0 +1,32 @@
+.layanan-container {
+  margin-top: 80px;
+}
+
+.layanan-inner > .title-text {
+  font-family: 'Poppins-Bold';
+  font-size: 30px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.layanan-box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.layanan-box-container > .layanan-item {
+  width: 350px;
+  height: 350px;
+  border: 1px solid #e5e5e5;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: coral;
+}
+
+@media screen and (max-width: 767px) {
+
+}

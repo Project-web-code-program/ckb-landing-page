@@ -1,0 +1,65 @@
+.blog-container {
+  margin-top: 80px;
+  background-color: #f7f8fe;
+}
+
+.blog-inner > .title-text {
+  font-family: 'Poppins-Bold';
+  font-size: 30px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.blog-box-container {
+  display: flex;
+}
+
+.blog-box-container > .blog-item {
+  width: 33.33%;
+  /* border: 1px solid #e5e5e5; */
+  padding: 0px 24px;
+}
+
+.blog-inner {
+  padding: 30px 0px;
+}
+
+.blog-item > .blog-head > img {
+  width: 100%;
+  margin-bottom: 16px;
+} 
+
+.blog-item > .blog-body {
+  font-family: 'Poppins-Medium';
+  font-size: 16px;
+  color: rgba(49,53,59);
+  margin-bottom: 10px;
+}
+
+.blog-item > .blog-date {
+  color: rgba(49,53,59,0.44);
+  margin-bottom: 10px;
+}
+
+.blog-item > .blog-footer {
+  display: flex;
+  align-items: center;
+}
+
+.blog-item > .blog-footer > img { 
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .blog-box-container { display: block; }
+  .blog-box-container > .blog-item {
+    width: unset;
+    margin-bottom: 10px;
+  }
+  .blog-box-container > .blog-item:nth-child(3) {
+    margin-bottom: unset;
+  }
+  .blog-box-container > .blog-item > .blog-head > img {
+    width: 100%;
+  }
+}

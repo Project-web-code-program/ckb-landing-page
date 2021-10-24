@@ -1,0 +1,103 @@
+.footer-container {
+  background: darkcyan;
+}
+
+.footer-inner {
+  display: flex;
+  padding-top: 50px;
+}
+
+.footer-inner > .left-footer {
+  width: 25%;
+}
+
+.footer-inner > .left-footer > img {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.footer-inner > .left-footer > .company-name {
+  font-family: 'Poppins-SemiBold';
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.footer-inner > .left-footer > .company-address {
+  font-family: 'Poppins-Light';
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.footer-inner > .left-footer > .social-media-container {
+  margin-left: -4px;
+}
+
+.footer-inner > .left-footer > .social-media-container > img { 
+  cursor: pointer;
+}
+
+.footer-inner > .right-footer {
+  width: 75%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right-footer-item {
+  margin-right: 15px;
+}
+
+.right-footer-item > ul {
+  list-style: none;
+  color: white;
+}
+
+.right-footer-item > ul.no-header {
+  margin-top: 40px;
+}
+
+.right-footer-item > ul > li { 
+  font-family: 'Poppins-Light';
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
+.right-footer-item > ul > li.header { 
+  font-family: 'Poppins-SemiBold';
+  font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+
+  .footer-inner {
+    display: block;
+  }
+
+  .footer-inner > .left-footer {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .right-footer-item > ul.no-header {
+    margin-top: 20px;
+  }
+
+  .footer-inner > .right-footer {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .right-footer-item {
+    margin-right: 5px;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .right-footer-item {
+    width: 140px;
+  }
+}
