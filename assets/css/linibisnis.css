@@ -73,18 +73,14 @@
   font-weight: bold;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px), screen and (max-width: 991px) {
  
   .left-linibisnis, .right-linibisnis {
     width: unset;
   }
 
   .linibisnis-inner {
-    display: block;
-  }
-
-  .swiper-button-prev::after, .swiper-button-next::after {
-    font-size: 25px !important;
+    flex-direction: column;
   }
 
 }
