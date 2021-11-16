@@ -59,6 +59,11 @@
   background: #e5e5e5;
 }
 
+.swiper-slide > .head-linibisnis {
+  text-align: center;
+  padding-top: 10px;
+}
+
 .swiper-button-prev, .swiper-button-next {
   border-radius: 50%;
   width: 50px !important;
