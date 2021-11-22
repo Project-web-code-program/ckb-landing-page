@@ -1,0 +1,122 @@
+.layanan-banner-container {
+  height: 70vh;
+  background-color: darkcyan;
+}
+
+.layanan-banner-container > .layanan-banner-inner {
+  display: flex;
+  align-items: center;
+  height: inherit;
+}
+
+.layanan-banner-container > .layanan-banner-inner > img {
+  height: 250px;
+}
+
+.layanan-banner-inner > .right-layanan-banner {
+  padding-left: 50px;
+  color: #ffffff;
+}
+
+.right-layanan-banner > .title-text { 
+  font-size: 25px;
+  font-family: 'Poppins-Bold';
+  margin-bottom: 10px;
+}
+
+.right-layanan-banner > .desc-text {
+  font-size: 18px;
+  font-family: 'Poppins-Light';
+  margin-bottom: 30px;
+}
+
+.card-item-layanan {
+  background: #ededed;
+  border-radius: 30px;
+  padding: 20px 30px;
+  display: flex;
+  margin: 30px 0px;
+}
+
+.card-item-layanan > .right-card-item {
+  align-self: center;
+  padding-left: 20px;
+}
+
+.right-card-item > .title-text {
+  font-size: 30px;
+  font-family: 'Poppins-Bold';
+  margin-bottom: 10px;
+}
+
+.right-card-item > .desc-text {
+  font-size: 20px;
+  font-family: 'Poppins-Light';
+  margin-bottom: 30px;
+}
+
+/* Banner Responsive */
+
+@media screen and (max-width: 767px) {
+
+  .layanan-banner-inner > .right-layanan-banner {
+    padding-left: unset;
+  }
+
+  .right-card-item {
+    text-align: center;
+  }
+
+  .right-layanan-banner > .title-text, .right-card-item > .title-text { 
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .right-layanan-banner > .desc-text, .right-card-item > .desc-text {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+  .right-card-item > .desc-text {
+    text-align: justify;
+  }
+
+  .layanan-banner-container > .layanan-banner-inner {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .layanan-banner-container > .layanan-banner-inner > img {
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  .card-item-layanan {
+    flex-direction: column;
+    align-items: center;
+    width: unset;
+    padding: 20px 20px;
+  }
+
+  .card-item-layanan > .right-card-item { 
+    padding-left: unset;
+  }
+
+  .card-item-layanan > img { 
+    width: 230px;
+    height: 230px;
+  }
+  
+}
+
+@media screen and (max-width: 320px) {
+
+  .layanan-banner-container > .layanan-banner-inner > img {
+    display: none;
+  }
+
+  .right-layanan-banner > .title-text { 
+    margin-top: 50px;
+  }
+}

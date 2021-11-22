@@ -10,6 +10,17 @@
   width: 100%;
 }
 
+.button-ckb-1 {
+  text-decoration: none;
+  background: #0B4B75;
+  color: #e5e5e5;
+  width: auto;
+  padding: 15px;
+  font-size: 14px;
+  line-height: 14px;
+  border-radius: 5px;
+}
+
 /* Layout Responsive */
 @media screen and (min-width: 320px) {
   .ckb-container {
@@ -28,6 +39,13 @@
     max-width: 540px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .button-ckb-1 { 
+    padding: 10px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .ckb-container {
     max-width: 720px;

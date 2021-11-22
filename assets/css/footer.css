@@ -80,10 +80,6 @@
     margin-bottom: 20px;
   }
 
-  .right-footer-item > ul.no-header {
-    margin-top: 20px;
-  }
-
   .footer-inner > .right-footer {
     width: 100%;
     flex-wrap: wrap;

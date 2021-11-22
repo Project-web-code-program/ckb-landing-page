@@ -20,7 +20,9 @@ $(document).ready(function() {
 
   $(window).scroll(function() {
     const scrollTopWindow = $(this).scrollTop();
-    if (scrollTopWindow >= $('.tentangkami-container').offset().top) {
+    const getElement = $('.target-scroll');
+
+    if (scrollTopWindow >= getElement.offset().top) {
       $('.header-container').find('div:first').removeClass('header-inner');
       $('.header-container').find('div:first').addClass('header-inner-new');
 
