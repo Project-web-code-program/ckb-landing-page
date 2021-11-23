@@ -18,6 +18,12 @@ $(document).ready(function() {
     }
   });
 
+  $('.right-layanan-banner .button-ckb-1').click((event) => {
+    $('html, body').animate({
+      scrollTop: $('.target-scroll').offset().top - 29
+    }, 1500);
+  });
+
   $(window).scroll(function() {
     const scrollTopWindow = $(this).scrollTop();
     const getElement = $('.target-scroll');

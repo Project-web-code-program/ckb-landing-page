@@ -25,6 +25,20 @@
   align-items: center;
   justify-content: center;
   background: coral;
+  position: relative;
+}
+
+.layanan-box-container > .layanan-item > img { 
+  width: 350px;
+  height: 350px;
+}
+
+.layanan-box-container > .layanan-item > .desc-text {
+  font-family: 'Poppins-Bold';
+  font-size: 25px;
+  color: #ffffff;
+  position: absolute;
+  bottom: 10px;
 }
 
 @media screen and (max-width: 767px) {
