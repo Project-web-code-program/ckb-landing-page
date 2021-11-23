@@ -49,7 +49,7 @@
   align-items: center;
 }
 
-.main-nav > .logo-section > img {
+.main-nav > .logo-section > a > img {
   width: 70px;
   height: 70px;
   cursor: pointer;
@@ -220,7 +220,7 @@
     display: block;
   }
 
-  .main-nav > .logo-section > img {
+  .main-nav > .logo-section > a > img {
     width: 60px;
     height: 60px;
   }
