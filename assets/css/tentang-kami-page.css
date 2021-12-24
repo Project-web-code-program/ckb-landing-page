@@ -1,0 +1,370 @@
+.tentang-kami-banner-container {
+  height: 70vh;
+  background-color: darkcyan;
+  position: relative;
+}
+.tentang-kami-banner-container::after {
+  content: "";
+  display: block;
+  background: url(../../assets/image/dot-tentang-kami-bg.png) no-repeat bottom left;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.strip-tentang-kami-page {
+  width: 48px;
+  height: 2px;
+  background-color: darkcyan;
+}
+
+.tentang-kami-banner-container > .text-container {
+  position: relative;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.tantangan-container, .berdiri-sejak-container, .visimisi-container,
+.history-container, .perjalanan-container {
+  margin-top: 80px;
+}
+
+.tantangan-container > .tantangan-inner, 
+.berdiri-sejak-container > .berdiri-sejak-inner,
+.visimisi-container > .visimisi-inner,
+.history-container > .history-inner,
+.perjalanan-container > .perjalanan-inner {
+  display: flex;
+  padding-top: 30px;
+}
+
+.left-tantangan, .right-tantangan, 
+.left-berdiri-sejak, .right-berdiri-sejak,
+.left-visimisi, .right-visimisi,
+.left-history, .right-history { 
+  width: 50%;
+}
+
+.left-perjalanan { width: 30%; }
+.right-perjalanan { width: 70%; position: relative; }
+
+.left-tantangan, .right-berdiri-sejak, .left-visimisi, .right-history{ 
+  text-align: center;
+}
+
+.left-tantangan > img, .right-berdiri-sejak > img, 
+.left-visimisi > img, .right-history > img { 
+  width: 90%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.right-tantangan, .right-visimisi, .right-perjalanan {
+  padding: 20px 0px 0px 20px;
+}
+
+.left-berdiri-sejak, .left-history {
+  padding: 20px 20px 0px 0px;
+}
+
+.right-perjalanan-top {
+  padding: 0px 15%;
+  font-family: 'Poppins-Bold';
+  font-size: 30px;
+  margin-bottom: 90px;
+}
+
+.right-perjalanan-top .strip-tentang-kami-page {
+  margin-bottom: 15px;
+}
+
+.right-perjalanan-body {
+  background-color: darkcyan;
+  color: #ffffff;
+  letter-spacing: .02em;
+  line-height: 2rem;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.right-perjalanan-body-inner {
+  padding: 0px 15%;
+}
+
+.right-perjalanan-body-inner > img {
+  position: absolute;
+  left: -285px;
+  top: 0;
+  border-radius: 24px;
+  border: 4px solid #ffffff;
+  width: 387px;
+}
+
+.right-perjalanan-body-inner > p {
+  font-style: italic;
+  margin-top: 30px;
+}
+
+.title-tantangan, .title-berdiri-sejak, .title-visi, .title-misi, .title-history, .title-perjalanan {
+  padding-top: 15px;
+  font-family: 'Poppins-Bold';
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.desc-tantangan, .desc-berdiri-sejak, .desc-visi, .desc-perjalanan {
+  font-family: 'Poppins-Light';
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.desc-misi, .desc-history {
+  font-family: 'Poppins-Light';
+  font-size: 16px;
+}
+
+.section7-container {
+  margin-top: 80px;
+  background-color: #ffffff;
+}
+
+.section7-inner > .title-text {
+  font-family: 'Poppins-Bold';
+  font-size: 30px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section7-inner > .title-text > .strip-tentang-kami-page {
+  margin-bottom: 10px;
+}
+
+.section7-box-container {
+  display: flex;
+}
+
+.section7-box-container > .section7-item {
+  width: 25%;
+  padding: 0px 24px;
+}
+
+.section7-inner {
+  padding: 30px 0px;
+}
+
+.section7-head > .numbering {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: darkcyan;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section7-head > .title-text {
+  font-family: 'Poppins-Bold';
+  font-size: 24px;
+  color: rgba(49,53,59);
+  margin: 10px 0px;
+}
+
+.section7-item > .section7-head > img {
+  width: 100%;
+  margin-bottom: 16px;
+} 
+
+.section7-item > .section7-body {
+  font-family: 'Poppins-Light';
+  font-size: 16px;
+  color: rgba(49,53,59);
+  margin-bottom: 10px;
+}
+
+.section8-container {
+  margin-top: 80px;
+  background-color: #f7f8fe;
+}
+
+.section8-inner > .title-text {
+  font-family: 'Poppins-Bold';
+  font-size: 30px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section8-inner > .title-text > .strip-tentang-kami-page {
+  margin-bottom: 10px;
+}
+
+.section8-box-container {
+  display: flex;
+}
+
+.section8-box-container > .section8-item {
+  width: 33.3%;
+  padding: 24px;
+  text-align: center;
+  background-color: #ffffff;
+  border: solid 1px #e5e6ee;
+  border-radius: 8px;
+  margin: 0px 15px;
+}
+
+.section8-inner {
+  padding: 30px 0px;
+}
+
+.section8-head > .title-text {
+  font-family: 'Poppins-Bold';
+  font-size: 24px;
+  color: rgba(49,53,59);
+  margin: 10px 0px;
+  line-height: 1.33;
+}
+
+.section8-item > .section8-head > img {
+  width: 150px;
+  height: 150px;
+} 
+
+.section8-item > .section8-body {
+  font-family: 'Poppins-Light';
+  font-size: 16px;
+  color: rgba(49,53,59);
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .tantangan-container > .tantangan-inner, .visimisi-container > .visimisi-inner,
+  .perjalanan-container > .perjalanan-inner {
+    display: block;
+  }
+
+  .berdiri-sejak-container > .berdiri-sejak-inner,
+  .history-container > .history-inner {
+    flex-direction: column-reverse;
+  }
+
+  .left-tantangan, .right-tantangan, 
+  .left-berdiri-sejak, .right-berdiri-sejak,
+  .left-visimisi, .right-visimisi,
+  .left-history, .right-history,
+  .left-perjalanan, .right-perjalanan { 
+    width: auto; 
+  }
+
+  .right-tantangan, .right-visimisi, .right-perjalanan { margin-bottom: 25px; padding-left: 0px; }
+
+  .left-tantangan img, .right-berdiri-sejak img,
+  .left-visimisi img, .right-history img,
+  .left-perjalanan img  {
+    width: 270px;
+    height: 270px;
+    margin-top: 25px;
+  }
+
+  .title-tantangan, .title-berdiri-sejak, .title-visi, .title-misi,
+  .title-history, .title-perjalanan, .right-perjalanan-top,
+  .section7-inner > .title-text, .section8-inner > .title-text,
+  .section7-head > .title-text, .section8-head > .title-text {
+    font-size: 20px;
+  }
+
+  .right-perjalanan-top {
+    padding: 0px 5%;
+    margin-bottom: 30px;
+  }
+
+  .right-perjalanan-body-inner {
+    padding: 0px 5%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right-perjalanan-body {
+    line-height: 1.5rem;
+    padding: 20px 0px;
+    height: unset;
+  }
+
+  .right-perjalanan-body-inner > img {
+    width: 300px;
+    height: 300px;
+    position: unset;
+    align-self: center;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    margin-bottom: 15px;
+  }
+
+  .right-perjalanan-body-inner > p {
+    margin-top: 15px;
+  }
+
+  .section7-box-container {
+    display: block;
+  }
+
+  .section7-inner > .title-text {
+    align-items: unset;
+    margin-bottom: 25px;
+  }
+  
+  .section7-box-container > .section7-item {
+    width: unset;
+    padding: unset;
+  }
+  .section7-box-container > .section7-item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .section8-box-container {
+    display: block;
+  }
+
+  .section8-inner > .title-text {
+    align-items: unset;
+    margin-bottom: 25px;
+  }
+
+  .section8-item > .section8-head > img {
+    width: 100px; height: 100px;
+  }
+  
+  .section8-box-container > .section8-item {
+    width: unset;
+    margin: 15px 0px;
+  }
+  .section8-box-container > .section8-item:last-child {
+    margin-bottom: unset;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .right-perjalanan-body-inner > img {
+    left: -200px;
+    top: 20px;
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 1439px) { 
+  .right-perjalanan-body-inner > img {
+    left: -200px;
+    top: 20px;
+    width: 270px;
+  }
+}
