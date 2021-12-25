@@ -3,6 +3,19 @@
   background-color: darkcyan;
   position: relative;
 }
+
+.tentang-kami-banner-container > .text-container .title-text {
+  font-size: 30px;
+  font-family: 'Poppins-Bold';
+  margin-bottom: 10px;
+}
+
+.tentang-kami-banner-container > .text-container .subtitle-text {
+  font-size: 20px;
+  font-family: 'Poppins-Light';
+  width: 60%;
+}
+
 .tentang-kami-banner-container::after {
   content: "";
   display: block;
@@ -251,6 +264,15 @@
   .tantangan-container > .tantangan-inner, .visimisi-container > .visimisi-inner,
   .perjalanan-container > .perjalanan-inner {
     display: block;
+  }
+
+  .tentang-kami-banner-container > .text-container .title-text {
+    font-size: 20px;
+  }
+  
+  .tentang-kami-banner-container > .text-container .subtitle-text {
+    font-size: 15px;
+    width: unset
   }
 
   .berdiri-sejak-container > .berdiri-sejak-inner,
