@@ -27,6 +27,7 @@ $(document).ready(function() {
   $(window).scroll(function() {
     const scrollTopWindow = $(this).scrollTop();
     const getElement = $('.target-scroll');
+    const getDetailBlogContainer = $('.detail-blog-container');
 
     if (scrollTopWindow >= getElement.offset().top) {
       $('.header-container').find('div:first').removeClass('header-inner');
@@ -42,8 +43,9 @@ $(document).ready(function() {
         <img src="assets/image/icon-instagram-dark.svg" alt="">
         <img src="assets/image/icon-linkedin-dark.svg" alt="">`);
 
-
       $('.nav-section-mobile > .burger-icon').attr('src', 'assets/image/burger-icon-right-dark.png');
+
+      if(getDetailBlogContainer) { $('.new-artice-container').addClass('sticky-article'); }
       
     } else {
       $('.header-container').find('div:first').removeClass('header-inner-new');
@@ -53,13 +55,15 @@ $(document).ready(function() {
       .children('.top-nav').children('.top-nav-inner').children('.social-media-container')
       .empty();
 
-    $('.header-container').find('div:first')
+      $('.header-container').find('div:first')
       .children('.top-nav').children('.top-nav-inner').children('.social-media-container')
       .append(`<img src="assets/image/icon-facebook.svg" alt="">
       <img src="assets/image/icon-instagram.svg" alt="">
       <img src="assets/image/icon-linkedin.svg" alt="">`);
 
       $('.nav-section-mobile > .burger-icon').attr('src', 'assets/image/burger-icon-right-light.png');
+
+      if(getDetailBlogContainer) { $('.new-artice-container').removeClass('sticky-article'); }
     }
   });
 
