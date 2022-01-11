@@ -62,6 +62,13 @@
 .swiper-slide > .head-linibisnis {
   text-align: center;
   padding-top: 10px;
+  margin-bottom: 5px;
+}
+
+.swiper-slide > .body-linibisnis{
+  font-family: 'Poppins-Light';
+  font-size: 12px;
+  padding: 0px 10px;
 }
 
 .swiper-button-prev, .swiper-button-next {

@@ -261,6 +261,11 @@
 }
 
 @media screen and (max-width: 767px) {
+  .tantangan-container, .berdiri-sejak-container, .visimisi-container,
+  .history-container, .perjalanan-container {
+    margin-top: 60px;
+  }
+
   .tantangan-container > .tantangan-inner, .visimisi-container > .visimisi-inner,
   .perjalanan-container > .perjalanan-inner {
     display: block;

@@ -1,0 +1,151 @@
+.contact-banner-container {
+  background: darkcyan;
+  color: #ffffff;
+  height: 70vh;
+  position: relative;
+}
+
+.contact-banner-container > .text-container {
+  position: relative;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.text-container .bedge-contact-us {
+  padding: 8px 24px;
+  border-radius: 2em;
+  background: darkgray;
+  color: #000000;
+  font-size: 18px;
+  font-family: 'Poppins-Bold';
+  margin-bottom: 5px;
+}
+
+.text-container .subtitle-text {
+  font-size: 36px;
+  font-family: 'Poppins-Light';
+}
+
+.contact-us-container, .visit-us-container {
+  margin-top: 80px;
+}
+
+.contact-us-container > .ckb-container > .title {
+  font-family: 'Poppins-Bold';
+  font-size: 25px;
+  text-align: center;
+}
+
+.contact-us-container > .ckb-container > .subtitle {
+  font-family: 'Poppins-Light';
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.form-container > .form-row {
+  margin: 15px 0px;
+}
+
+.form-container > .form-row > .button-ckb-1 {
+  text-align: right;
+}
+
+.form-container > .form-row > div {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-container > .form-row > input {
+  width: 100%;
+  width: -moz-available;          /* WebKit-based browsers will ignore this. */
+  width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+  width: fill-available;
+
+  font-family: Poppins-Light;
+  border-color: #454545;
+  height: 15px;
+  padding: 0.375rem 0.75rem;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  margin-bottom: 20px;
+}
+
+.visit-us-container {
+  margin-bottom: 30px;
+}
+
+.visit-us-container > .ckb-container > .title {
+  font-family: 'Poppins-Bold';
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.visit-inner {
+  display: flex;
+}
+
+.visit-inner > iframe {
+  width: 50%;
+  height: 300px;
+}
+
+.right-visit {
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-visit > .location, .right-visit > .number {
+  margin-bottom: 15px;
+}
+
+.right-visit > .location > .title , .right-visit > .number > .title, .right-visit > .email > .title  {
+  font-family: 'Poppins-SemiBold';
+  font-size: 20px;
+}
+
+.right-visit > .location > .subtitle , .right-visit > .number > .subtitle, .right-visit > .email > .subtitle  {
+  font-family: 'Poppins-light';
+  font-size: 18px;
+}
+
+/* Banner Responsive */
+@media screen and (max-width: 767px) {
+  .text-container .bedge-contact-us {
+    font-size: 16px;
+  }
+  
+  .text-container .subtitle-text {
+    font-size: 15px;
+    width: unset
+  }
+
+  .contact-us-container, .visit-us-container {
+    margin-top: 60px;
+  }
+
+  .visit-inner {
+    display: block;
+  }
+
+  .visit-inner > iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+  .right-visit {
+    padding-left: unset;
+    margin-top: 15px;
+  }
+}
