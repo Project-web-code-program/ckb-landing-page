@@ -4,6 +4,18 @@
   position: relative;
 }
 
+.blog-banner-container::after {
+  content: "";
+  display: block;
+  background: url(../../assets/image/dot-tentang-kami-bg.png) no-repeat bottom left;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .blog-banner-container > .text-container .title-text {
   font-size: 30px;
   font-family: 'Poppins-Bold';

@@ -13,6 +13,7 @@
 
 .right-linibisnis {
   width: 60%;
+  position: relative;
 }
 
 .title-linibisnis {
@@ -51,6 +52,7 @@
 
 .swiper {
   height: 550px;
+  position: unset !important;
 }
 
 .swiper-slide {
@@ -61,14 +63,28 @@
 
 .swiper-slide > .head-linibisnis {
   text-align: center;
-  padding-top: 10px;
+  padding-top: 50px;
   margin-bottom: 5px;
+}
+
+.swiper-slide > .head-linibisnis > .title { 
+  font-family: 'Poppins-Bold';
+  margin: 10px 0px;
 }
 
 .swiper-slide > .body-linibisnis{
   font-family: 'Poppins-Light';
-  font-size: 12px;
-  padding: 0px 10px;
+  font-size: 13.5px;
+  padding: 0px 30px;
+  line-height: 30px;
+}
+
+.swiper-button-prev {
+  left: -25px !important;
+}
+
+.swiper-button-next {
+  right: -25px !important;
 }
 
 .swiper-button-prev, .swiper-button-next {
@@ -76,13 +92,17 @@
   width: 50px !important;
   height: 50px !important;
   box-shadow: rgb(72 103 130) 2px 4px 10px -5px;
-  background: white;
+  background: gray;
 }
 
 .swiper-button-prev::after, .swiper-button-next::after {
   font-size: 25px !important;
   color: #000000;
   font-weight: bold;
+}
+
+.swiper-pagination {
+  display: none;
 }
 
 @media screen and (max-width: 767px), screen and (max-width: 991px) {
@@ -93,6 +113,14 @@
 
   .linibisnis-inner {
     flex-direction: column;
+  }
+
+  .swiper-button-prev, .swiper-button-next {
+    display: none !important;
+  }
+
+  .swiper-pagination {
+    display: block;
   }
 
 }
