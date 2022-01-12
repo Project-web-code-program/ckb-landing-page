@@ -7,6 +7,10 @@
   font-size: 30px;
   margin-bottom: 25px;
   text-align: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .layanan-box-container {

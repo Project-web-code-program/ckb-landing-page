@@ -28,12 +28,6 @@
   left: 0;
 }
 
-.strip-tentang-kami-page {
-  width: 48px;
-  height: 2px;
-  background-color: darkcyan;
-}
-
 .tentang-kami-banner-container > .text-container {
   position: relative;
   height: 70vh;
@@ -92,7 +86,7 @@
   margin-bottom: 90px;
 }
 
-.right-perjalanan-top .strip-tentang-kami-page {
+.right-perjalanan-top .strip-ckb {
   margin-bottom: 15px;
 }
 
@@ -126,7 +120,6 @@
 }
 
 .title-tantangan, .title-berdiri-sejak, .title-visi, .title-misi, .title-history, .title-perjalanan {
-  padding-top: 15px;
   font-family: 'Poppins-Bold';
   font-size: 30px;
   margin-bottom: 25px;
@@ -157,7 +150,7 @@
   align-items: center;
 }
 
-.section7-inner > .title-text > .strip-tentang-kami-page {
+.section7-inner > .title-text > .strip-ckb {
   margin-bottom: 10px;
 }
 
@@ -218,7 +211,7 @@
   align-items: center;
 }
 
-.section8-inner > .title-text > .strip-tentang-kami-page {
+.section8-inner > .title-text > .strip-ckb {
   margin-bottom: 10px;
 }
 
