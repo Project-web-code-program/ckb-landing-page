@@ -25,6 +25,13 @@
   text-align: right;
 }
 
+.strip-ckb {
+  width: 48px;
+  height: 2px;
+  background-color: darkcyan;
+  margin-bottom: 15px;
+}
+
 /* Layout Responsive */
 @media screen and (min-width: 320px) {
   .ckb-container {
