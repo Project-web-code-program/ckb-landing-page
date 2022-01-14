@@ -91,7 +91,7 @@
 }
 
 .right-perjalanan-body {
-  background-color: darkcyan;
+  background-color: #0B4B75;
   color: #ffffff;
   letter-spacing: .02em;
   line-height: 2rem;
@@ -171,7 +171,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: darkcyan;
+  background-color: #0B4B75;
   color: #ffffff;
   display: flex;
   align-items: center;
