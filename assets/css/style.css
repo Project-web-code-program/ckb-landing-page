@@ -32,6 +32,22 @@
   margin-bottom: 15px;
 }
 
+.language-container {
+  display: flex;
+}
+
+.toggle-lang {
+  font-size: 10px;
+  cursor: pointer;
+  padding: 0px 5px;
+}
+
+.language-container .active {
+  border-radius: 8px;
+  background: rgba(0,0,0,0.2);
+  height: 15px;
+}
+
 /* Layout Responsive */
 @media screen and (min-width: 320px) {
   .ckb-container {
