@@ -51,5 +51,5 @@ function generateTranslate() { document.querySelectorAll(`[${keyOfDict}]`).forEa
 function translateElement(element) {
   const key = element.getAttribute(keyOfDict);
   const translation = dictionary[locale][key];
-  element.innerText = translation;
+  element.innerHTML = translation;
 }
