@@ -43,6 +43,9 @@ const dictionary = {
     'right-footer-linibisnis':'Lini Bisnis',
     'right-footer-item-layanan':'Layanan',
     'right-footer-item-karir':'karir',
+
+
+    //tentang kami
   },
   en: {
     'nav-home': 'Home',
